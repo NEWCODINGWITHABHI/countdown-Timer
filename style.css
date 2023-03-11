@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+   font-size: 62.5%;
+}
+body{
+  font-size: 1.6rem;
+}
+.app-container{
+    background:url("./187161.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* opacity:0.8; */
+}
+.timer-container{
+   background-color: white;
+
+   padding: 2rem 3rem ;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 3rem;
+   border-radius: 2rem;
+
+}
+.timer-show-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.timer-box{
+    padding: 1rem 2rem;
+    background-color: rgb(27, 47, 74);
+    border-radius: 1.5rem;
+    width: 10rem;
+    color: white;
+    text-align: center;
+
+}
+.timer-box p{
+    letter-spacing: 0.3rem;
+    font-size: 4rem;
+}
+.timer-box span{
+    font-size: 2rem;
+    font-weight: 550;
+}
+
+
+@media (max-width:500px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:450px){
+    html{
+        font-size: 40%;
+    }
+}
